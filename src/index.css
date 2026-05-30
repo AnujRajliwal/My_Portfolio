@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Base style setups */
+html {
+  scroll-behavior: smooth;
+  background-color: #0c0a09; /* stone-950 background color */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0c0a09;
+}
+
+/* Custom styles for professional scrollbar selection */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0c0a09;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #292524;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #44403c;
+}
+
+/* @media print modifications for ATS resume generation */
+@media print {
+  @page {
+    size: letter;
+    margin: 15mm;
+  }
+  
+  html, body {
+    background-color: #fff !important;
+    background: #fff !important;
+    color: #000 !important;
+    font-family: "Times New Roman", Times, serif !important;
+  }
+
+  /* Hide interactives */
+  .print\:hidden {
+    display: none !important;
+  }
+
+  /* Make sure printable ATS block is shown correctly */
+  #printable-ats-resume {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: static !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: transparent !important;
+    color: #000 !important;
+  }
+
+  /* Ensure text colors are pure black */
+  h1, h2, h3, h4, th, td, span, li, p, strong {
+    color: #000 !important;
+  }
+}
