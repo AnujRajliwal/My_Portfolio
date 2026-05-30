@@ -1,20 +1,161 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🚀 Personal Portfolio Website
 
-# Run and deploy your AI Studio app
+Welcome to my personal portfolio website repository!
+This project showcases my skills, projects, experience, and journey as a frontend developer.
 
-This contains everything you need to run your app locally.
+Built with modern web technologies, this portfolio focuses on performance, responsiveness, and clean UI/UX design.
 
-View your app in AI Studio: https://ai.studio/apps/912e5d38-a071-42ca-93c1-dd2e2f3c06fc
+---
 
-## Run Locally
+# 🌐 Live Demo
 
-**Prerequisites:**  Node.js
+> Add your deployed portfolio link here after deployment
 
+```bash
+https://your-portfolio-link.vercel.app
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+# 📸 Portfolio Preview
+
+> Add screenshots or GIF previews of your portfolio here.
+
+---
+
+# ✨ Features
+
+* Responsive Design
+* Modern UI/UX
+* Fast Performance using Vite
+* Smooth Navigation
+* Reusable React Components
+* TypeScript Support
+* Mobile Friendly
+* Clean Code Structure
+* Easy Customization
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+
+* React.js
+* TypeScript
+* Vite
+* HTML5
+* CSS3
+* JavaScript
+
+## Development Tools
+
+* Visual Studio Code
+* Git & GitHub
+
+---
+
+# 📂 Folder Structure
+
+```bash
+portfolio/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── assets/
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.ts
+└── README.md
+```
+
+---
+
+# ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/your-repository-name.git
+```
+
+Move into the project folder:
+
+```bash
+cd your-repository-name
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+# 🚀 Deployment
+
+You can deploy this portfolio using:
+
+* Vercel
+* Netlify
+* GitHub Pages
+
+Recommended:
+
+```bash
+Vercel
+```
+
+---
+
+# 👨‍💻 About Me
+
+Hi, I'm Anuj 👋
+I am passionate about frontend development and continuously learning modern web technologies to build responsive and user-friendly web applications.
+
+I enjoy solving problems, building creative projects, and improving my development skills every day.
+
+---
+
+# 📬 Connect With Me
+
+## LinkedIn
+
+Add your LinkedIn profile link here.
+
+## GitHub
+
+Add your GitHub profile link here.
+
+## Email
+
+Add your professional email here.
+
+---
+
+# ⭐ Support
+
+If you like this project, feel free to give it a ⭐ on GitHub.
+
+---
+
+# 📄 License
+
+This project is open-source and available under the MIT License.
